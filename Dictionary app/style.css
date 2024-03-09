@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./bg.jpg) no-repeat center / cover fixed;
+    overflow: hidden;
+    font-family:  cursive;
+}
+
+.container{
+    background-color: #fff;
+    width: 98vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+
+.search-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input{
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid rgba(155, 51, 253, 1);
+    font-size: 14px;
+}
+
+.search-box button{
+    padding: 15px 0;
+    width: 25%;
+    background-color:rgb(164, 123, 202);
+    border: none;
+    outline: none;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.search-box button:hover{
+    background-color: rgb(247, 192, 247);
+}
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 30px;
+    color: rgb(57, 10, 85);
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button{
+    background-color:transparent;
+    color: plum;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.word button i.fa-solid:hover{
+    color: rgb(163, 37, 163);
+}
+
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.word-meaning{
+    color: #575a7b;
+}
+
+.error{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+.word-example{
+    color: #575a7b;
+    font-style: italic;
+    border-left: 2px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 11px;
+    font-family: cursive;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: plum;
+    font-weight: 900px;
+}
