@@ -1,1 +1,1 @@
-This a simple recipeweb app using the free meal API
+This  is a collection of projects that utelize free api's.
